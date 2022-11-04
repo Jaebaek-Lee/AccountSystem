@@ -9,7 +9,8 @@ public:
 	Account(int);
 	void setName(std::string);
 	void setbal(double);
-	std::string getName();
+	double getBal();
+	void display();
 private:
 	const int num;
 	std::string name;
