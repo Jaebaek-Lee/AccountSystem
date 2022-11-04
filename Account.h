@@ -10,12 +10,11 @@ public:
 	void setName(std::string);
 	void setbal(double);
 	double getBal();
-	std::string getName();
-	void display();
+	void display(); //모두 cpp에서 설명
 private:
-	const int num;
-	std::string name;
-	double bal;
+	const int num; //계좌번호는 바뀔 수 없다.
+	std::string name; //계좌주인이름
+	double bal; //잔액
 };
 
 #endif
