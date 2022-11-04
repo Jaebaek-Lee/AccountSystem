@@ -10,6 +10,7 @@ public:
 	void setName(std::string);
 	void setbal(double);
 	double getBal();
+	std::string getName();
 	void display();
 private:
 	const int num;

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Account::Account(int num) : num{ num }, name{ NULL }, bal{ 0 } {}
+Account::Account(int num) : num{ num }, name{ nul }, bal{NULL} {}
 
 void Account::setName(string name) {
 	this->name = name;
@@ -16,6 +16,10 @@ void Account::setbal(double balance) {
 
 double Account::getBal() {
 	return this->bal;
+}
+
+string Account::getName() {
+	return this->name;
 }
 
 void Account::display() {
